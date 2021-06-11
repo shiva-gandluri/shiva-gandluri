@@ -2,7 +2,7 @@
 
 --------------------------------------------------
 
-<h4 align="center" justify-content ="space-around"> 4🌟 Programmer @ CodeChef || Full Stack Developer (Angular + Django) -- AI Enthusiast </h4>
+<h4 align="center" justify-content ="space-around"> 4🌟 Programmer @ CodeChef || Full Stack Developer (Angular + Django) || AI Enthusiast </h4>
 
 --------------------------------------------------
 
