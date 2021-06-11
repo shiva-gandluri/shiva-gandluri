@@ -1,4 +1,4 @@
-<h1 border-bottom="0" align="center" style="border-bottom-width: 1px;"> Shiva Gandluri </h1>
+<h1 align="center"> Shiva Gandluri </h1>
 
 --------------------------------------------------
 
