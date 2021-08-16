@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TF-IDF on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/tf-idf/</link>
+    <description>Recent content in TF-IDF on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/tf-idf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</guid>
+      <description>In a hackathon project in the field of fintech, my team and I developed a stock management system. It makes use of LSTMs to predict the effect of Twitter feed and Reuters News feed on stock prices based on their sentiment scores. Based on financial documents submitted by each company important metrics that identify dead assets, ROI etc. We also perform analysis of long financial documents in-order to extract the important topics discussed in the report with the help of NLP technique TF-IDF.</description>
+    </item>
+    
+  </channel>
+</rss>

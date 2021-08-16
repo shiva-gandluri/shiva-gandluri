@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/python/</link>
+    <description>Recent content in Python on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Probate Parsing</title>
+      <link>https://shahsaumya.github.io/projects/contributions/probate_parsing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/contributions/probate_parsing/</guid>
+      <description>I wanted to work on projects that would benefit society and found Google Summer of Code (GSoC) to be the perfect opportunity. I worked with Free UK Genealogy, an organization that aims at the transcription of family data and explored Named Entity Recognition (NER) more deeply. I created an end-to-end framework that extracts text from wills, using OCR, and seeds them into a database with named entities. A big constraint in the project was a lack of adequate training samples to build an accurate NER model.</description>
+    </item>
+    
+    <item>
+      <title>Automated Topic-Based Extractive Summarization System</title>
+      <link>https://shahsaumya.github.io/projects/creations/automated_summarization/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/automated_summarization/</guid>
+      <description>To build the summarization, we followed four steps for end-to-end data extraction and summary generation - data preprocessing, content selection, information ordering and content realization.
+ Data Preprocessing - The process involved collecting raw data, segmenting sentences, coverting to tokens, stop word removal, lemmatization and stemming Content Selection - We used Latent Dirichlet Allocation to select the most important sentences that contribute to the summary. To improve the accuracy of LDA, we used TF-IDF scores that rank the words of a document based on importance and relevance.</description>
+    </item>
+    
+    <item>
+      <title>Named Entity Recognition using BERT and ELMo</title>
+      <link>https://shahsaumya.github.io/projects/creations/ner-using-lms/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/ner-using-lms/</guid>
+      <description>In this project, we contrasted two different methods for Named Entity Recognition on 3 benchmark datasets. The first method was the biLSTM-CRF neural arcitecture that has been the norm for Named Entity Recognition versus using language models like BERT or ELMo. We use the contextual word embeddings from ELMo and pretrain BERT for Named Entity Recognition. The datasets we used were the CoNLL 2003 dataset, MIT movie dataset and the GMB NER dataset.</description>
+    </item>
+    
+    <item>
+      <title>Automated Question Generation and Answer Verification using Digital Data</title>
+      <link>https://shahsaumya.github.io/projects/creations/automated_vqg/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/automated_vqg/</guid>
+      <description>In recent years, we have witnessed a significant progress in various fields of AI, such as computer vision, as well as language understanding. These progress motivated researchers to address a more challenging problem: question answering and question generation on visual data. This problem combines both image understanding as well as language understanding. Essentially, this task is defined as follows: an image along with a question about that image is the input to the AI system, and the intelligent system is supposed to output a correct answer to the question with respect the input image.</description>
+    </item>
+    
+    <item>
+      <title>Grammar Tutor</title>
+      <link>https://shahsaumya.github.io/projects/creations/grammar_tutor/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/grammar_tutor/</guid>
+      <description>Made under the guidance of my college professor Prof. Lakshmi Kurup, the application strives to teach basic grammar, specifically comma punctuation to small children. Using a list of subjects, objects, and verbs, the web app can construct a sentence and check user input at each stage using Context Free Grammar. Hints are produced based on the input entered by the user, so as to guide the user better.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</guid>
+      <description>In a hackathon project in the field of fintech, my team and I developed a stock management system. It makes use of LSTMs to predict the effect of Twitter feed and Reuters News feed on stock prices based on their sentiment scores. Based on financial documents submitted by each company important metrics that identify dead assets, ROI etc. We also perform analysis of long financial documents in-order to extract the important topics discussed in the report with the help of NLP technique TF-IDF.</description>
+    </item>
+    
+    <item>
+      <title>Gammalink</title>
+      <link>https://shahsaumya.github.io/projects/creations/gammalink/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/gammalink/</guid>
+      <description>Built a Gamma-Poisson classifier to represent the similarity between records in disparate datasets. Our efforts showed impressive results, even better than the probabilistic approach proposed by Fellegi-Sunter. The prototype has now been launched as a stand-alone framework for entity resolution developed by the company, and I have also managed to submit a paper based on our research to AIStats. This classifier can work with streaming, sparse and sequential data</description>
+    </item>
+    
+    <item>
+      <title>Smart Crop - A Farming Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/smart_crop/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/smart_crop/</guid>
+      <description>A project that provides information on crop sustenance based on geo-location, rainfall. land-surface temperature and soil nutrient analysis. It is a one-stop shop for farmers to learn about air, water soil conditions in and around their farm, receive alerts about any possible disasters/weather alerts and get recommendations about crop cultivation. The data required for this forecasting system would be taken from varied sources such as ISRO MOSDAC, ISRO Vedas, each having different characteristics.</description>
+    </item>
+    
+    <item>
+      <title>Crop Recommendation System</title>
+      <link>https://shahsaumya.github.io/projects/creations/crop_recommendation_sys/</link>
+      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/crop_recommendation_sys/</guid>
+      <description>In this hackathon, sponsored by the Indian Space Research Organization, we built a recommendation system for farmers to provide actionable advice on the crops that would be ideal based on the location, rainfall and soil time-series data. The data required for this forecasting system would be taken from varied sources such as ISRO MOSDAC, ISRO Vedas, each having different characteristics. Designing a system that would take into account the various parameters gave an insight into topics like multivariate time-series systems.</description>
+    </item>
+    
+    <item>
+      <title>Movie Recommendation System</title>
+      <link>https://shahsaumya.github.io/projects/creations/movie_recommendation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/movie_recommendation/</guid>
+      <description>As a part of my Web Technologies Lab, I built a movie recommender system using collaborative filtering (CF). From past user activity (like/dislike or ratings), I built a rule-based model, that uses the neighborhood-based CF. This also allows a prediction from like-minded users with similar ratings. The MovieLens dataset was used and employed user interactions like ratings to drive the GRU.</description>
+    </item>
+    
+    <item>
+      <title>Continuous User Identification System</title>
+      <link>https://shahsaumya.github.io/projects/creations/continuous_user/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/continuous_user/</guid>
+      <description>Made in the Smart India Hackathon for the Indian Space Research Organisation, my team built a web app that recorded keystrokes of a user to create a dataset capturing his/her typing style. The project used a C-RNN-GAN which would distinguish between a legitimate user and a malicious user based on his/her typing style based on trust metrics. The training parameters for each user will be unique, and thus a trust mechanism would reward or penalize based on correct or incorrect typing behavior, based on the RNN network.</description>
+    </item>
+    
+    <item>
+      <title>College Online Forum</title>
+      <link>https://shahsaumya.github.io/projects/creations/college_forum/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/college_forum/</guid>
+      <description>A forum web app for the entire college as a member of the Technical Co-Committee in DJ Literary Society. The forum made use of different categories for the different departments and threads in each of these categories. It is built using the Misago framework built on top of Django.</description>
+    </item>
+    
+  </channel>
+</rss>

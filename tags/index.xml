@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/</link>
+    <description>Recent content in Tags on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BERT</title>
+      <link>https://shahsaumya.github.io/tags/bert/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biomedical information extraction</title>
+      <link>https://shahsaumya.github.io/tags/biomedical-information-extraction/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/biomedical-information-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>named entity recognition</title>
+      <link>https://shahsaumya.github.io/tags/named-entity-recognition/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/named-entity-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natural Language Processing</title>
+      <link>https://shahsaumya.github.io/tags/natural-language-processing/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyTorch</title>
+      <link>https://shahsaumya.github.io/tags/pytorch/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relation extraction</title>
+      <link>https://shahsaumya.github.io/tags/relation-extraction/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/relation-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gensim</title>
+      <link>https://shahsaumya.github.io/tags/gensim/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/gensim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latent Dirichlet Allocation</title>
+      <link>https://shahsaumya.github.io/tags/latent-dirichlet-allocation/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/latent-dirichlet-allocation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://shahsaumya.github.io/tags/python/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summarization</title>
+      <link>https://shahsaumya.github.io/tags/summarization/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/summarization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic Modelling</title>
+      <link>https://shahsaumya.github.io/tags/topic-modelling/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/topic-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AllenNLP</title>
+      <link>https://shahsaumya.github.io/tags/allennlp/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/allennlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoNLL 2003</title>
+      <link>https://shahsaumya.github.io/tags/conll-2003/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/conll-2003/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ELMo</title>
+      <link>https://shahsaumya.github.io/tags/elmo/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/elmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Models</title>
+      <link>https://shahsaumya.github.io/tags/language-models/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/language-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NER</title>
+      <link>https://shahsaumya.github.io/tags/ner/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/ner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>attention module</title>
+      <link>https://shahsaumya.github.io/tags/attention-module/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/attention-module/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>https://shahsaumya.github.io/tags/computer-vision/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>convolution neural network</title>
+      <link>https://shahsaumya.github.io/tags/convolution-neural-network/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/convolution-neural-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>e-learning system</title>
+      <link>https://shahsaumya.github.io/tags/e-learning-system/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/e-learning-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gated recurrent unit</title>
+      <link>https://shahsaumya.github.io/tags/gated-recurrent-unit/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/gated-recurrent-unit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>image feature extraction</title>
+      <link>https://shahsaumya.github.io/tags/image-feature-extraction/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/image-feature-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>long short term memory</title>
+      <link>https://shahsaumya.github.io/tags/long-short-term-memory/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/long-short-term-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recurrent neural network</title>
+      <link>https://shahsaumya.github.io/tags/recurrent-neural-network/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/recurrent-neural-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual question answering</title>
+      <link>https://shahsaumya.github.io/tags/visual-question-answering/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/visual-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual question generation</title>
+      <link>https://shahsaumya.github.io/tags/visual-question-generation/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/visual-question-generation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vqa dataset</title>
+      <link>https://shahsaumya.github.io/tags/vqa-dataset/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/vqa-dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keras</title>
+      <link>https://shahsaumya.github.io/tags/keras/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/keras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://shahsaumya.github.io/tags/machine-learning/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>https://shahsaumya.github.io/tags/tensorflow/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ArcGIS</title>
+      <link>https://shahsaumya.github.io/tags/arcgis/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/arcgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bhuvan Topological Data</title>
+      <link>https://shahsaumya.github.io/tags/bhuvan-topological-data/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/bhuvan-topological-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decision Support Systems</title>
+      <link>https://shahsaumya.github.io/tags/decision-support-systems/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/decision-support-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geoinformatics System</title>
+      <link>https://shahsaumya.github.io/tags/geoinformatics-system/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/geoinformatics-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HydroSHEDS</title>
+      <link>https://shahsaumya.github.io/tags/hydrosheds/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/hydrosheds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISRO Mosdac</title>
+      <link>https://shahsaumya.github.io/tags/isro-mosdac/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/isro-mosdac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SoilGrids</title>
+      <link>https://shahsaumya.github.io/tags/soilgrids/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/soilgrids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AJAX</title>
+      <link>https://shahsaumya.github.io/tags/ajax/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/ajax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS3</title>
+      <link>https://shahsaumya.github.io/tags/css3/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/css3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>https://shahsaumya.github.io/tags/django/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://shahsaumya.github.io/tags/html/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://shahsaumya.github.io/tags/deep-learning/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fintech</title>
+      <link>https://shahsaumya.github.io/tags/fintech/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/fintech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pandas</title>
+      <link>https://shahsaumya.github.io/tags/pandas/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://shahsaumya.github.io/tags/sentiment-analysis/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TF-IDF</title>
+      <link>https://shahsaumya.github.io/tags/tf-idf/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/tf-idf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matplotlib</title>
+      <link>https://shahsaumya.github.io/tags/matplotlib/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Graphical Models</title>
+      <link>https://shahsaumya.github.io/tags/probabilistic-graphical-models/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/probabilistic-graphical-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Record Linkage</title>
+      <link>https://shahsaumya.github.io/tags/record-linkage/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/record-linkage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Translate API</title>
+      <link>https://shahsaumya.github.io/tags/google-translate-api/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/google-translate-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scikit-learn</title>
+      <link>https://shahsaumya.github.io/tags/scikit-learn/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series Analysis</title>
+      <link>https://shahsaumya.github.io/tags/time-series-analysis/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/time-series-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Filtering</title>
+      <link>https://shahsaumya.github.io/tags/collaborative-filtering/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/collaborative-filtering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Network</title>
+      <link>https://shahsaumya.github.io/tags/generative-adversarial-network/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/generative-adversarial-network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keystroke Dynamics</title>
+      <link>https://shahsaumya.github.io/tags/keystroke-dynamics/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/keystroke-dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POSTgreSQL</title>
+      <link>https://shahsaumya.github.io/tags/postgresql/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://shahsaumya.github.io/tags/image-processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpaCy</title>
+      <link>https://shahsaumya.github.io/tags/spacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/spacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tesseract OCR</title>
+      <link>https://shahsaumya.github.io/tags/tesseract-ocr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/tags/tesseract-ocr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

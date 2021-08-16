@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>matplotlib on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/matplotlib/</link>
+    <description>Recent content in matplotlib on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gammalink</title>
+      <link>https://shahsaumya.github.io/projects/creations/gammalink/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/gammalink/</guid>
+      <description>Built a Gamma-Poisson classifier to represent the similarity between records in disparate datasets. Our efforts showed impressive results, even better than the probabilistic approach proposed by Fellegi-Sunter. The prototype has now been launched as a stand-alone framework for entity resolution developed by the company, and I have also managed to submit a paper based on our research to AIStats. This classifier can work with streaming, sparse and sequential data</description>
+    </item>
+    
+  </channel>
+</rss>

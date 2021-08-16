@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS3 on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/css3/</link>
+    <description>Recent content in CSS3 on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/css3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grammar Tutor</title>
+      <link>https://shahsaumya.github.io/projects/creations/grammar_tutor/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/grammar_tutor/</guid>
+      <description>Made under the guidance of my college professor Prof. Lakshmi Kurup, the application strives to teach basic grammar, specifically comma punctuation to small children. Using a list of subjects, objects, and verbs, the web app can construct a sentence and check user input at each stage using Context Free Grammar. Hints are produced based on the input entered by the user, so as to guide the user better.</description>
+    </item>
+    
+    <item>
+      <title>Movie Recommendation System</title>
+      <link>https://shahsaumya.github.io/projects/creations/movie_recommendation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/movie_recommendation/</guid>
+      <description>As a part of my Web Technologies Lab, I built a movie recommender system using collaborative filtering (CF). From past user activity (like/dislike or ratings), I built a rule-based model, that uses the neighborhood-based CF. This also allows a prediction from like-minded users with similar ratings. The MovieLens dataset was used and employed user interactions like ratings to drive the GRU.</description>
+    </item>
+    
+    <item>
+      <title>College Online Forum</title>
+      <link>https://shahsaumya.github.io/projects/creations/college_forum/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/college_forum/</guid>
+      <description>A forum web app for the entire college as a member of the Technical Co-Committee in DJ Literary Society. The forum made use of different categories for the different departments and threads in each of these categories. It is built using the Misago framework built on top of Django.</description>
+    </item>
+    
+  </channel>
+</rss>

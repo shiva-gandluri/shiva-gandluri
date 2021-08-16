@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automated Question Generation and Answer Verification using Visual Data</title>
+      <link>https://shahsaumya.github.io/publications/automated-vqg/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/automated-vqg/</guid>
+      <description>This paper delineates the automation of question generation as an extension to existing Visual Question Answering (VQA) systems. Through our research, we have been able to build a system that can generate questions and answer pairs on images. It consists of two separate modules - Visual Question Generation (VQG) which generates questions based on the image, and a Visual Question Answering (VQA) module that produces a befitting answer that the VQG module generates.</description>
+    </item>
+    
+    <item>
+      <title>Automated Question Generation and Answer Verification using Digital Data</title>
+      <link>https://shahsaumya.github.io/projects/creations/automated_vqg/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/automated_vqg/</guid>
+      <description>In recent years, we have witnessed a significant progress in various fields of AI, such as computer vision, as well as language understanding. These progress motivated researchers to address a more challenging problem: question answering and question generation on visual data. This problem combines both image understanding as well as language understanding. Essentially, this task is defined as follows: an image along with a question about that image is the input to the AI system, and the intelligent system is supposed to output a correct answer to the question with respect the input image.</description>
+    </item>
+    
+  </channel>
+</rss>

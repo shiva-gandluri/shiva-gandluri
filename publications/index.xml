@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Experience on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/publications/</link>
+    <description>Recent content in Research Experience on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Family History Extraction using Clinical Narratives</title>
+      <link>https://shahsaumya.github.io/publications/bionlp/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/bionlp/</guid>
+      <description>For my graduation project, I worked with Prof. Meliha Yetisgen as a graduate research assistant in the BioNLP lab and worked on a project that aimed at extracting family history from patients’ clinical narratives. The project required me to develop an end-to-end system from preparing the training dataset for the individual tasks to selecting the model, algorithm, and implementation.
+This project can be divided into two main subtasks:
+• Entity identification (family members and disease names) - This involves getting the family members and disease names (unassociated).</description>
+    </item>
+    
+    <item>
+      <title>Automated Question Generation and Answer Verification using Visual Data</title>
+      <link>https://shahsaumya.github.io/publications/automated-vqg/</link>
+      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/automated-vqg/</guid>
+      <description>This paper delineates the automation of question generation as an extension to existing Visual Question Answering (VQA) systems. Through our research, we have been able to build a system that can generate questions and answer pairs on images. It consists of two separate modules - Visual Question Generation (VQG) which generates questions based on the image, and a Visual Question Answering (VQA) module that produces a befitting answer that the VQG module generates.</description>
+    </item>
+    
+    <item>
+      <title>Optimization of Rainwater Harvesting Sites using GIS</title>
+      <link>https://shahsaumya.github.io/publications/gis/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/gis/</guid>
+      <description>Water scarcity is hitting new peaks every day and is exacerbated by the current rapid climatic change. Demand for clean water in India is very high, especially for agriculture and consumption. One way to cater to these needs is through rainwater harvesting. Through this paper, we propose a framework that optimizes the site selection for reservoirs by intersecting various data points. Our framework uses a three-step approach to combine stream networks, digital elevation, and soil quality to produce the most viable reservoir sites.</description>
+    </item>
+    
+  </channel>
+</rss>

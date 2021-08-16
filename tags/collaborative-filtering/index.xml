@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collaborative Filtering on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/collaborative-filtering/</link>
+    <description>Recent content in Collaborative Filtering on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/collaborative-filtering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Movie Recommendation System</title>
+      <link>https://shahsaumya.github.io/projects/creations/movie_recommendation/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/movie_recommendation/</guid>
+      <description>As a part of my Web Technologies Lab, I built a movie recommender system using collaborative filtering (CF). From past user activity (like/dislike or ratings), I built a rule-based model, that uses the neighborhood-based CF. This also allows a prediction from like-minded users with similar ratings. The MovieLens dataset was used and employed user interactions like ratings to drive the GRU.</description>
+    </item>
+    
+  </channel>
+</rss>

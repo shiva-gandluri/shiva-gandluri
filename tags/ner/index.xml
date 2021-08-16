@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NER on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/ner/</link>
+    <description>Recent content in NER on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/ner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Named Entity Recognition using BERT and ELMo</title>
+      <link>https://shahsaumya.github.io/projects/creations/ner-using-lms/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/ner-using-lms/</guid>
+      <description>In this project, we contrasted two different methods for Named Entity Recognition on 3 benchmark datasets. The first method was the biLSTM-CRF neural arcitecture that has been the norm for Named Entity Recognition versus using language models like BERT or ELMo. We use the contextual word embeddings from ELMo and pretrain BERT for Named Entity Recognition. The datasets we used were the CoNLL 2003 dataset, MIT movie dataset and the GMB NER dataset.</description>
+    </item>
+    
+  </channel>
+</rss>

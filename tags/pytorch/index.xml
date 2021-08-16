@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PyTorch on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/pytorch/</link>
+    <description>Recent content in PyTorch on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Family History Extraction using Clinical Narratives</title>
+      <link>https://shahsaumya.github.io/publications/bionlp/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/bionlp/</guid>
+      <description>For my graduation project, I worked with Prof. Meliha Yetisgen as a graduate research assistant in the BioNLP lab and worked on a project that aimed at extracting family history from patients’ clinical narratives. The project required me to develop an end-to-end system from preparing the training dataset for the individual tasks to selecting the model, algorithm, and implementation.
+This project can be divided into two main subtasks:
+• Entity identification (family members and disease names) - This involves getting the family members and disease names (unassociated).</description>
+    </item>
+    
+    <item>
+      <title>Named Entity Recognition using BERT and ELMo</title>
+      <link>https://shahsaumya.github.io/projects/creations/ner-using-lms/</link>
+      <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/ner-using-lms/</guid>
+      <description>In this project, we contrasted two different methods for Named Entity Recognition on 3 benchmark datasets. The first method was the biLSTM-CRF neural arcitecture that has been the norm for Named Entity Recognition versus using language models like BERT or ELMo. We use the contextual word embeddings from ELMo and pretrain BERT for Named Entity Recognition. The datasets we used were the CoNLL 2003 dataset, MIT movie dataset and the GMB NER dataset.</description>
+    </item>
+    
+  </channel>
+</rss>

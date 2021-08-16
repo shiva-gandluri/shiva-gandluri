@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Support Systems on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/decision-support-systems/</link>
+    <description>Recent content in Decision Support Systems on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/decision-support-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Optimization of Rainwater Harvesting Sites using GIS</title>
+      <link>https://shahsaumya.github.io/publications/gis/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/gis/</guid>
+      <description>Water scarcity is hitting new peaks every day and is exacerbated by the current rapid climatic change. Demand for clean water in India is very high, especially for agriculture and consumption. One way to cater to these needs is through rainwater harvesting. Through this paper, we propose a framework that optimizes the site selection for reservoirs by intersecting various data points. Our framework uses a three-step approach to combine stream networks, digital elevation, and soil quality to produce the most viable reservoir sites.</description>
+    </item>
+    
+  </channel>
+</rss>

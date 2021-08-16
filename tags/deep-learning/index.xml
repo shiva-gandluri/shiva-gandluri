@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</guid>
+      <description>In a hackathon project in the field of fintech, my team and I developed a stock management system. It makes use of LSTMs to predict the effect of Twitter feed and Reuters News feed on stock prices based on their sentiment scores. Based on financial documents submitted by each company important metrics that identify dead assets, ROI etc. We also perform analysis of long financial documents in-order to extract the important topics discussed in the report with the help of NLP technique TF-IDF.</description>
+    </item>
+    
+    <item>
+      <title>Continuous User Identification System</title>
+      <link>https://shahsaumya.github.io/projects/creations/continuous_user/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/continuous_user/</guid>
+      <description>Made in the Smart India Hackathon for the Indian Space Research Organisation, my team built a web app that recorded keystrokes of a user to create a dataset capturing his/her typing style. The project used a C-RNN-GAN which would distinguish between a legitimate user and a malicious user based on his/her typing style based on trust metrics. The training parameters for each user will be unique, and thus a trust mechanism would reward or penalize based on correct or incorrect typing behavior, based on the RNN network.</description>
+    </item>
+    
+  </channel>
+</rss>

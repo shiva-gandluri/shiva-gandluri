@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generative Adversarial Network on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/generative-adversarial-network/</link>
+    <description>Recent content in Generative Adversarial Network on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/generative-adversarial-network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Continuous User Identification System</title>
+      <link>https://shahsaumya.github.io/projects/creations/continuous_user/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/continuous_user/</guid>
+      <description>Made in the Smart India Hackathon for the Indian Space Research Organisation, my team built a web app that recorded keystrokes of a user to create a dataset capturing his/her typing style. The project used a C-RNN-GAN which would distinguish between a legitimate user and a malicious user based on his/her typing style based on trust metrics. The training parameters for each user will be unique, and thus a trust mechanism would reward or penalize based on correct or incorrect typing behavior, based on the RNN network.</description>
+    </item>
+    
+  </channel>
+</rss>

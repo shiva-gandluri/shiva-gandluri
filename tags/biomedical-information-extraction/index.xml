@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biomedical information extraction on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/biomedical-information-extraction/</link>
+    <description>Recent content in biomedical information extraction on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/biomedical-information-extraction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Family History Extraction using Clinical Narratives</title>
+      <link>https://shahsaumya.github.io/publications/bionlp/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/publications/bionlp/</guid>
+      <description>For my graduation project, I worked with Prof. Meliha Yetisgen as a graduate research assistant in the BioNLP lab and worked on a project that aimed at extracting family history from patients’ clinical narratives. The project required me to develop an end-to-end system from preparing the training dataset for the individual tasks to selecting the model, algorithm, and implementation.
+This project can be divided into two main subtasks:
+• Entity identification (family members and disease names) - This involves getting the family members and disease names (unassociated).</description>
+    </item>
+    
+  </channel>
+</rss>

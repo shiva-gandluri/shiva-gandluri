@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandas on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/pandas/</link>
+    <description>Recent content in Pandas on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/pandas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portfolio Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/portfolio_mgmt/</guid>
+      <description>In a hackathon project in the field of fintech, my team and I developed a stock management system. It makes use of LSTMs to predict the effect of Twitter feed and Reuters News feed on stock prices based on their sentiment scores. Based on financial documents submitted by each company important metrics that identify dead assets, ROI etc. We also perform analysis of long financial documents in-order to extract the important topics discussed in the report with the help of NLP technique TF-IDF.</description>
+    </item>
+    
+    <item>
+      <title>Gammalink</title>
+      <link>https://shahsaumya.github.io/projects/creations/gammalink/</link>
+      <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/gammalink/</guid>
+      <description>Built a Gamma-Poisson classifier to represent the similarity between records in disparate datasets. Our efforts showed impressive results, even better than the probabilistic approach proposed by Fellegi-Sunter. The prototype has now been launched as a stand-alone framework for entity resolution developed by the company, and I have also managed to submit a paper based on our research to AIStats. This classifier can work with streaming, sparse and sequential data</description>
+    </item>
+    
+    <item>
+      <title>Smart Crop - A Farming Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/smart_crop/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/smart_crop/</guid>
+      <description>A project that provides information on crop sustenance based on geo-location, rainfall. land-surface temperature and soil nutrient analysis. It is a one-stop shop for farmers to learn about air, water soil conditions in and around their farm, receive alerts about any possible disasters/weather alerts and get recommendations about crop cultivation. The data required for this forecasting system would be taken from varied sources such as ISRO MOSDAC, ISRO Vedas, each having different characteristics.</description>
+    </item>
+    
+  </channel>
+</rss>

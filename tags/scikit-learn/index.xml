@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scikit-learn on Saumya Shah</title>
+    <link>https://shahsaumya.github.io/tags/scikit-learn/</link>
+    <description>Recent content in Scikit-learn on Saumya Shah</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shahsaumya.github.io/tags/scikit-learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Smart Crop - A Farming Management System</title>
+      <link>https://shahsaumya.github.io/projects/creations/smart_crop/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/smart_crop/</guid>
+      <description>A project that provides information on crop sustenance based on geo-location, rainfall. land-surface temperature and soil nutrient analysis. It is a one-stop shop for farmers to learn about air, water soil conditions in and around their farm, receive alerts about any possible disasters/weather alerts and get recommendations about crop cultivation. The data required for this forecasting system would be taken from varied sources such as ISRO MOSDAC, ISRO Vedas, each having different characteristics.</description>
+    </item>
+    
+    <item>
+      <title>Crop Recommendation System</title>
+      <link>https://shahsaumya.github.io/projects/creations/crop_recommendation_sys/</link>
+      <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://shahsaumya.github.io/projects/creations/crop_recommendation_sys/</guid>
+      <description>In this hackathon, sponsored by the Indian Space Research Organization, we built a recommendation system for farmers to provide actionable advice on the crops that would be ideal based on the location, rainfall and soil time-series data. The data required for this forecasting system would be taken from varied sources such as ISRO MOSDAC, ISRO Vedas, each having different characteristics. Designing a system that would take into account the various parameters gave an insight into topics like multivariate time-series systems.</description>
+    </item>
+    
+  </channel>
+</rss>
