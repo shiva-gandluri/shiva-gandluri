@@ -196,3 +196,33 @@ img {
   font-size: 16px;
   padding: 4px 8px 4px 8px;
 }
+
+.video {
+  /*margin: auto;*/
+  display: flex;
+  flex-direction: coulumn;
+ /* justify-content: center;*/
+ align-items: center;
+}
+
+.vid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outline-none {
+  padding: 8px 12px;
+  width: 25rem;
+  background-color: white;
+  outline: none;
+  border: 2px solid #dfdddd!important;
+  border-radius: 0.75rem!important;
+}
+
+.outline-none:focus {
+  box-shadow: 2px 2px 2px #888888!important;
+  border: 2px solid #eeeded!important;
+  transition: border-color 0.30s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out!important;
+  
+}

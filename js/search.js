@@ -22,7 +22,7 @@ if(searchQuery){
   $("#search-query").val(searchQuery);
   executeSearch(searchQuery);
 }else {
-  $('#search-results').append("<p>Please enter a word or phrase above</p>");
+  $('#search-results').append("<p>Please enter a word or phrase above and click enter</p>");
 }
 
 
@@ -49,7 +49,8 @@ function populateResults(result){
     var tags =[];
     if( fuseOptions.tokenize ){
       snippetHighlights.push(searchQuery);
-    }else{
+    }
+    else{
       $.each(value.matches,function(matchKey,mvalue){
         if(mvalue.key == "tags"){
           snippetHighlights.push(mvalue.value);
