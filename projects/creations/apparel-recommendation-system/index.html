@@ -127,20 +127,52 @@
 <section class="resume-section p-3 p-lg-5 d-lg-flex d-md-block"> <!--d-column-->
   <div class="">
     <h2 class="mb-0"><span class="text-primary">Apparel Recommendation System</span></h2>
+    <h6>Problem:<h6>
     <p>
-      In this, I predicted the most similar apparels for a given product and 
-      recommend them. Given a product (or apparel), I’ve analysed that by its image, 
-      brand name, color etc and found those products which have most similar features 
-      with respect to given product and visualize them.
-      <br><br>
-      <h6>Technologies Used:</h6> Convolutional Neural Networks, Machine Learning, Python
-      <br> 
-
-
+      Recommend products that are most similar to the current product to Amazon customers.
+      Given a product, I’ve analysed it by its image, brand name, color etc and recommended products 
+      which have most similar features to the current product.
     </p>
+      
+    <h6>Data:<h6>
+    <p>
+      The Amazon Apparel recommendation has around 0.18 million products with 7 features for each product. 
+      The data contains both textual and image information as attributes such as product type(shirt, pant etc), product brand,
+      product colour, product image etc.  
+    </p>
+
+    <h6>Approach:<h6>
+    <p>
+      <ul>
+        <li>
+          Performed Data Cleaning & Data Preprocessing by removing unnecessary and duplicates rows 
+          and for text reviews removed HTML tags, punctuations, Stopwords and Stemmed the words using Porter Stemmer.
+        </li>
+        <li>
+         For each product, found the most similar products using sklearns's cosine_similarity and pairwise_distances on
+          <ul>
+            <li>
+              Textual Feature Vectors for product's 'Title', 'Brand', 'Type' attributes seperately.
+            </li>
+            <li>
+              Weighted average textual Feature Vectors of product's 'Brand', 'Colour' attributes.
+            </li>
+            <li>
+              Image Feature Vectors for product's Image attribute.
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </p>
+      
+    <b>Technologies Used:</b> Convolutional Neural Networks, Machine Learning, Python
+    <br> 
+
+
+    
     
       <li class="list-inline-item ml-2 mb-3">
-        <h6>Code:</h6>
+        <b>Code:</b>
         <a href="https://github.com/shiva-gandluri/Amazon-Apparel-Recommendation" data-toggle="tooltip" title="View Code" data-offset="0 10">
           <span class="fa-stack fa-lg">
             <i class="fa fa-circle fa-stack-2x"></i>
