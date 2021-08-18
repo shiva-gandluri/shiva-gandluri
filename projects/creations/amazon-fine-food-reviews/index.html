@@ -127,15 +127,19 @@
     <h2 class="mb-3"><span class="text-primary">Amazon Fine Food Reviews</span></h2>
     <p>
       <b> Problem: </b> <br>
-      Amazon Fine Food Reviews is a classic Sentiment Analysis problem used to classify 
-      the polarity of the review given by the Amazon user. Given the textual reviews 
-      and related features of the product, I have designed various techniques to classify 
-      the polarity of the review.
       
-      <br><br>
-      <b>Data Source:</b> <a href="https://www.kaggle.com/snap/amazon-fine-food-reviews">https://www.kaggle.com/snap/amazon-fine-food-reviews</a>
+      <p>The challenge is to develop a machine learning model that would classify a given food review into 
+      one of the two categories, positive review or negative review, with high precision and recall. 
+      A 'rating' attribute was provided for each review with values 1 to 5, which I have used as class label for performing
+      supervised training and predicting the class labels for test dataset. 
+      It's is a classic sentiment analysis problem, means that for every food review, the polarity of it has to be predicted.</p>
       
-      <br><br>
+      <b> Data: </b> <br>
+      <p>The Amazon Fine Food Reviews data is distributed across 2 categories with around 0.56 million reviews. 
+        Each record in the dataset has information about the user, review text, timestamp of the review etc.</p>
+    
+      <br>
+
       <b> Approach: </b>
       <ul>
         <li>Performed Exploratory Data Analysis(EDA) on Amazon Fine Food Reviews Dataset and drew helpful insights by plotting Word Clouds, Distplots, Histograms, etc.</li>
@@ -144,7 +148,7 @@
         <li>Build machine learning models</li>
       </ul>  
     
-      <b> Models: </b>
+      <h6> Models: </h6>
       <p>Applied the following machine learning models on Different Featurization of Data viz. BOW(uni-gram), tfidf, Avg-Word2Vec and tf-idf-Word2Vec</p>
         <ul> 
           <li>K-Nearest Neighbours</li>
