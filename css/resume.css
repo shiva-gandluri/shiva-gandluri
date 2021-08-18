@@ -136,8 +136,9 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+
 .bg-primary {
-  background-color: #00203f !important;
+  background-color: #1a71aa  !important;
 }
 
 .text-primary {
@@ -153,7 +154,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #014545;
+  color: #005396;
 }
 
 img {
@@ -191,7 +192,7 @@ img {
 }
 
 .text {
-  background-color: #005396;
+  background-color: #1a71aa;
   color: white;
   font-size: 16px;
   padding: 4px 8px 4px 8px;
