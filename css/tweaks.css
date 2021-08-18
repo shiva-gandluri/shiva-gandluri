@@ -80,12 +80,12 @@ div.skills-heading{
 }
 
 .tag:hover {
-  background-color: #003366;
+  background-color: #005396;
   color: white;
 }
 
 .tag:hover::after {
-   border-left-color: #003366;
+   border-left-color: #005396;
 }
 
 .project-fact{
