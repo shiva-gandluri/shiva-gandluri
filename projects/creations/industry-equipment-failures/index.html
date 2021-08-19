@@ -146,15 +146,13 @@
       The test set contains 16000 examples.</li>
       <li>Each record in the dataset has information about the machinery with anonymous names making it harder to draw analogies with 
       trends and insights from real-life.</li>
-      <li>Cost-metric of miss-classification: </li>
+        <li><b>Cost-metric of miss-classification:</b> </li>
         <ul>
            <li> 
-              Total_cost = (No_Instances_with_True_Negatives * True_Negative_Cost)  + (No_Instances_with_False_Positives * False_Positive_Cost) , 
-              where True_Negative_Cost = 10 and False_Positive_Cost = 500.  
+              Total_cost = $ (No_Instances_with_False_Negatives * False_Negative_Cost)  + (No_Instances_with_False_Positives * False_Positive_Cost) , 
+             <p>where False_Positive_Cost = 10 and False_Negative_Cost = 500.</p>  
           </li>
          </ul>
-        <li> 
-        </li>
       </ul>
     </p>
   
@@ -175,44 +173,26 @@ Standardizing/ Normalizing the data
           </a> 
         </li>
         <li> Standardizing/ Normalizing the data </li>
- 
+        <li>ROC/ precision_recall curve is used to choose a threshold such that the recall is high and the total cost is minimized.
+          Validation set is used for selecting threshold using cross validation.</li>
+        <li> Model training and testing. Following models were user to train. </li>
+            <ul>
+              <li> K-Nearest Neighbours </li>
+              <li> Logistic Regression </li>
+              <li> Random Forest </li>
+              <li> XGBoost </li>
+            </ul>
       </ul>
     </p>
     
-   <h6></h6>
+   <h6>Conclusions:</h6>
     <p>
       <ul>
-        <li> </li>
+        <li> Medium imputed features with XGBoost model with depth 15 and 300 learners gave me the best results of $13700 cost </li>
       </ul>
     </p>
 
-   <h6></h6>
-    <p>
-      <ul>
-        <li> </li>
-      </ul>
-    </p>
-
-   <h6></h6>
-    <p>
-      <ul>
-        <li> </li>
-      </ul>
-    </p>
-
-   <h6></h6>
-    <p>
-      <ul>
-        <li> </li>
-      </ul>
-    </p>
-  
- 
-      This is a problem related to machinery where we need to predict whether the 
-      machine has some problem or not. There are around 170 numerical features using 
-      which we need to classify the given data point whether it has some defect or not.
-      <br><br>
-      <b>Technologies Used:</b> Machine Learning, Python
+    <p><b>Technologies Used:</b> Machine Learning, Python </p>
       <br> 
 
 
