@@ -126,7 +126,88 @@
 <section class="resume-section p-3 p-lg-5 d-lg-flex d-md-block"> <!--d-column-->
   <div class="">
     <h2 class="mb-0"><span class="text-primary">Industry Equipment Failures</span></h2>
+    <h6> Problem: </h6>
     <p>
+      
+      The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure
+      system (APS) which generates pressurised air that are utilized in various functions in a truck, such as braking and gear changes.
+      The challenge is to develop a machine learning model that would detect whether a machinery is defective or not with high precision
+      by reducing the cost metric. 
+      The datasets’ positive (or defective) class consists of component failures for a specific component of the APS system. 
+      The negative (or non-defective) class consists of trucks with failures for components not related to the APS.
+    </p>
+    
+    <h6> Data: </h6>
+    <p>
+      <ul>
+      <li>The Industry Equipment Failures data is distributed across 2 categories with around 60,000 records with 171 features and
+      high imbalance in the class labels ratio. </li>
+      <li>The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. 
+      The test set contains 16000 examples.</li>
+      <li>Each record in the dataset has information about the machinery with anonymous names making it harder to draw analogies with 
+      trends and insights from real-life.</li>
+      <li>Cost-metric of miss-classification: </li>
+        <ul>
+           <li> 
+              Total_cost = (No_Instances_with_True_Negatives * True_Negative_Cost)  + (No_Instances_with_False_Positives * False_Positive_Cost) , 
+              where True_Negative_Cost = 10 and False_Positive_Cost = 500.  
+          </li>
+         </ul>
+        <li> 
+        </li>
+      </ul>
+    </p>
+  
+  
+   <h6> Approach: </h6>
+    <p>
+      
+
+Compensate the unbalanced data set by adopting SMOTE (Synthetic Minority Oversampling Techniques) [Highly imbalanced dataset with 1000 positive class and 59000 negative class in 60000 training samples (Smaller training set with 333 positive class and 19666 negative class)].
+Standardizing/ Normalizing the data
+      <ul>
+        <li> Data Parsing </li>
+        <li> Features with more than 75% missing instances are removed. 6 features are removed in total. </li>
+        <li> Missing values in the rest of the columns are compensated/filled using Mean imputed and Median imputed method</li>
+        <li> Compensate the unbalanced data set by adopting 
+          <a style="color:#0d6efd" href="https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/smote">
+            SMOTE (Synthetic Minority Oversampling Techniques)
+          </a> 
+        </li>
+        <li> Standardizing/ Normalizing the data </li>
+ 
+      </ul>
+    </p>
+    
+   <h6></h6>
+    <p>
+      <ul>
+        <li> </li>
+      </ul>
+    </p>
+
+   <h6></h6>
+    <p>
+      <ul>
+        <li> </li>
+      </ul>
+    </p>
+
+   <h6></h6>
+    <p>
+      <ul>
+        <li> </li>
+      </ul>
+    </p>
+
+   <h6></h6>
+    <p>
+      <ul>
+        <li> </li>
+      </ul>
+    </p>
+  
+ 
       This is a problem related to machinery where we need to predict whether the 
       machine has some problem or not. There are around 170 numerical features using 
       which we need to classify the given data point whether it has some defect or not.
@@ -135,7 +216,6 @@
       <br> 
 
 
-    </p>
 
     <ul class="tags">
 
