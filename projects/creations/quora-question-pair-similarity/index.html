@@ -127,14 +127,56 @@
   <div class="">
     <h2 class="mb-0"><span class="text-primary">Quora Question Pair Similarity</span></h2>
     <p>
+      Over 100 million people visit Quora every month, so it's no surprise that many people ask similarly worded questions.
+      Multiple questions with the same intent can cause seekers to spend more time finding the best answer to their question,
+      and make writers feel they need to answer multiple versions of the same question. So the objective of this project is 
+      to predict whether pair of similarly worded questions are semantically similar or not. 
       Built a deep-learning model using Siamese Long short-term memory(LSTM) 
       network to find the semantic similarity of question pairs from Quora's public dataset.
-      <br><br>
-      <b>Technologies Used:</b> Deep Learning, Python
-      <br> 
-
-
     </p>
+    
+    <h6>Data:</h6>
+    <p>
+      Quora's Question Pair Similarity dataset is distributed across 2 categories (similar or not) with over 0.4 million records 
+      of question pairs. Each record in the train dataset contains couple of question texts, their respective id's and a binary class label 
+      indicating whether the questions are similar or not.
+    </p>
+    
+    <h6>Business Objectives and Performance Metric:</h6>
+    <p>
+      <ul>
+        <li>
+          The cost of a mis-classification can be very high. Used probability of a pair of questions to be duplicates 
+          and choosed 95% as threshold to determine question pairs as similar.  
+        </li>
+        <li>No strict latency concerns.</li>
+        <li>Interpretability is partially important.</li>
+        <li>Used log-loss & Binary Confusion Matrix as perfomance metric for this problem.</li>
+      </ul>
+    </p>
+  
+  <h6>Models:</h6>
+  <p>
+    <ul>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Siamese_neural_network"> Siamese LSTM neural network </a>
+        </li>
+    </ul>
+  
+  <h6>Conclusions:</h6>
+  <p>
+    <ul>
+      <li>
+        Using feature engineering techniques, I was able to minimize the log loss t0 0.28
+      </li>
+       <li>
+        Further, we can try things like transfer learning to pretrain the LSTM network and create data using data augmentation to
+        improve the performance metric.
+      </li>
+    </ul>
+  </p>
+          
+      <b>Technologies Used:</b> Deep Learning, Python
 
     <ul class="tags">
 
