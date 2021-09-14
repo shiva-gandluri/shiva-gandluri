@@ -32,11 +32,11 @@ I've worked on 4 machine learning projects based on Classification, Regression, 
 --------------------------------------------------
 ### 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 :
 
-<img src="https://img.icons8.com/fluent/25/000000/linkedin.png" style="width: 0.1rem; height: 0.1rem"/> : https://www.linkedin.com/in/shiva-gandluri-63016416b/
+<img src="https://img.icons8.com/fluent/25/000000/linkedin.png" style="width: 0.1rem; height: 0.1rem"/> : https://www.linkedin.com/in/shiva-gandluri/
 
 ✉ : shiva1gandluri@gmail.com
 
-📞 : +91 8886898100
+📞 : +1 7164310149
 
 --------------------------------------------------
 
