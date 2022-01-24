@@ -11,7 +11,7 @@
 If you're in search of potential candidates with any of the below abilities, 𝘥𝘰 𝘤𝘰𝘯𝘴𝘪𝘥𝘦𝘳 𝘮𝘦 𝘢𝘴 𝘰𝘯𝘦.
 
 ✅ 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗦𝗼𝗹𝘃𝗲𝗿:
-I have solved around 150+ Leetcode problems and 70+ problems on other platforms. These helped me both professionally and personally in developing a perspective on how to face and deal with problems. Shared some of them in my featured post - 'Completed Solving my first 100 problems on Leetcode'.
+I have solved around 180+ Leetcode problems and 70+ problems on other platforms. These helped me both professionally and personally in developing a perspective on how to face and deal with problems. Shared some of them in my featured post - 'Completed Solving my first 100 problems on Leetcode'.
 
 ✅ 𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 / 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 / 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :
 I developed 2 end-to-end web applications and gained experience in building Restful APIs, web scraping, dynamic interaction with the database in the backend, and building single-page dynamic web applications with routing, component interaction features in the frontend. This makes me an efficient Fullstack developer.
