@@ -17,7 +17,7 @@ I have solved around 200+ Leetcode problems and 70+ problems on other platforms.
 I have 2 years of industrial experience working as Software Developer at Tata Consultancy and Services. Also, I built 4 end-to-end web applications and gained experience in building Restful APIs, web scraping, dynamic interaction with the database in the backend, and building single-page dynamic web applications with routing, component interaction features in the frontend. I believe this exposure to the Software Development makes me an efficient Fullstack Developer.
 
 ✅ 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 / 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘀𝘁 / 𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝘁𝗶𝘀𝘁 :
-I've worked on 4 machine learning projects based on Classification, Regression, Time Series Data, Recommendation systems, and Convolutional Neural Networks. I have done extensive data analysis and derived impactful business insights while working on these problems, which makes me an eligible candidate for the above roles.
+I've worked on 6 machine learning projects based on Classification, Regression, Time Series Data, Recommendation systems, and Convolutional Neural Networks. I have done extensive data analysis and derived impactful business insights while working on these problems, which makes me an eligible candidate for the above roles.
 
 --------------------------------------------------
 
