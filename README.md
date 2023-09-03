@@ -36,8 +36,6 @@ I've worked on 6 machine learning projects based on Classification, Regression, 
 
 ✉ : shiva1gandluri@gmail.com
 
-📞 : +1 7164310149
-
 --------------------------------------------------
 
 <!---
