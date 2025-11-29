@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Quora Question Pair Similarity</title>
+
+  <!-- Google Fonts: Outfit (Headers) and Lato (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Lato:wght@300;400;700&family=Fira+Code&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+
+  <!-- Custom Modern CSS -->
+  <link href="../../css/modern.css?v=2" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <div class="app-container">
+    <!-- Mobile Nav Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="sidebar" id="sideNav" aria-label="Main Navigation">
+      <a class="navbar-brand" href="../../index.html">
+        <span class="mobile-brand-text">Shiva Gandluri</span>
+        <span class="desktop-brand-img">
+          <img class="profile-img" src="../../img/display-picture.jpg" alt="Shiva Gandluri">
+        </span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="../../index.html#about">About</a>
+        <a class="nav-link" href="../../index.html#skills">Skills</a>
+        <a class="nav-link" href="../../index.html#education">Education</a>
+        <a class="nav-link" href="../../index.html#projects">Projects</a>
+        <a class="nav-link" href="../../index.html#experience">Experience</a>
+        <a class="nav-link" href="../../index.html#leadership">Leadership</a>
+        <a class="nav-link" href="../../index.html#blogs">Blogs</a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section id="project-details">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../index.html#projects">Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Quora Question Pair Similarity</li>
+          </ol>
+        </nav>
+
+
+
+
+        <section class="resume-section p-3 p-lg-5 d-lg-flex d-md-block"> <!--d-column-->
+          <div class="">
+            <h2 class="mb-0"><span class="text-primary">Quora Question Pair Similarity</span></h2>
+            <div style="margin: var(--space-md) 0;">
+              <a href="https://github.com/shiva-gandluri/quora-question-pair-similarity" class="btn-pill">
+                <i class="fab fa-github"></i>
+                Code Repository
+              </a>
+            </div>
+            <p>
+              Over 100 million people visit Quora every month, so it's no surprise that many people ask similarly worded
+              questions.
+              Multiple questions with the same intent can cause seekers to spend more time finding the best answer to
+              their question,
+              and make writers feel they need to answer multiple versions of the same question. So the objective of this
+              project is
+              to predict whether pair of similarly worded questions are semantically similar or not.
+              Built a deep-learning model using Siamese Long short-term memory(LSTM)
+              network to find the semantic similarity of question pairs from Quora's public dataset.
+            </p>
+
+            <h6>Data:</h6>
+            <p>
+              Quora's Question Pair Similarity dataset is distributed across 2 categories (similar or not) with over 0.4
+              million records
+              of question pairs. Each record in the train dataset contains couple of question texts, their respective
+              id's and a binary class label
+              indicating whether the questions are similar or not.
+            </p>
+
+            <h6>Business Objectives and Performance Metric:</h6>
+            <p>
+            <ul>
+              <li>
+                The cost of a mis-classification can be very high. Calculated probability of a pair of questions to be
+                duplicates
+                and choosen a threshold to determine question pairs as similar.
+              </li>
+              <li>No strict latency concerns.</li>
+              <li>Interpretability is partially important.</li>
+              <li>Used log-loss & Binary Confusion Matrix as perfomance metric for this problem.</li>
+            </ul>
+            </p>
+
+            <h6>Models:</h6>
+            <p>
+            <ul>
+              <li>
+                <a href="https://en.wikipedia.org/wiki/Siamese_neural_network"> Siamese LSTM neural network </a>
+              </li>
+            </ul>
+
+            <h6>Conclusions:</h6>
+            <p>
+            <ul>
+              <li>
+                Using feature engineering techniques, I was able to minimize the log loss to 0.28
+              </li>
+              <li>
+                Further, we can try things like transfer learning to pretrain the LSTM network and create data using
+                data augmentation to
+                improve the performance metric.
+              </li>
+            </ul>
+            </p>
+
+            <p> <b>Technologies Used:</b> Deep Learning, Python </p>
+
+            <div class="tag-list">
+
+              <a href="../../projects/index.html?tag=NLP" class="tag">Natural Language Processing</a>
+
+              <a href="../../projects/index.html?tag=Deep%20Learning" class="tag">Deep Learning</a>
+
+              <a href="../../projects/index.html?tag=Keras" class="tag">Keras</a>
+
+              <a href="../../projects/index.html?tag=Data%20visualization" class="tag">Data visualization</a>
+
+              <a href="../../projects/index.html?tag=Python" class="tag">Python</a>
+
+              <a href="../../projects/index.html?tag=Data%20Science" class="tag">Data Science</a>
+
+            </div>
+
+          </div>
+
+
+        </section>
+    </main>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script>
+    // Mobile Nav Toggle
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const sideNav = document.getElementById('sideNav');
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        sideNav.classList.toggle('active');
+      });
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (sideNav.classList.contains('active') &&
+        !sideNav.contains(e.target) &&
+        !navToggle.contains(e.target)) {
+        sideNav.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <script src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+
+
+
+</body>
+
+</html>

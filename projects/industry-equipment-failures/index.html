@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Industry Equipment Failures</title>
+
+  <!-- Google Fonts: Outfit (Headers) and Lato (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Lato:wght@300;400;700&family=Fira+Code&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+
+  <!-- Custom Modern CSS -->
+  <link href="../../css/modern.css?v=2" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <div class="app-container">
+    <!-- Mobile Nav Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="sidebar" id="sideNav" aria-label="Main Navigation">
+      <a class="navbar-brand" href="../../index.html">
+        <span class="mobile-brand-text">Shiva Gandluri</span>
+        <span class="desktop-brand-img">
+          <img class="profile-img" src="../../img/display-picture.jpg" alt="Shiva Gandluri">
+        </span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="../../index.html#about">About</a>
+        <a class="nav-link" href="../../index.html#skills">Skills</a>
+        <a class="nav-link" href="../../index.html#education">Education</a>
+        <a class="nav-link" href="../../index.html#projects">Projects</a>
+        <a class="nav-link" href="../../index.html#experience">Experience</a>
+        <a class="nav-link" href="../../index.html#leadership">Leadership</a>
+        <a class="nav-link" href="../../index.html#blogs">Blogs</a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section id="project-details">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../index.html#projects">Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Industry Equipment Failures</li>
+          </ol>
+        </nav>
+
+
+
+
+        <section class="resume-section p-3 p-lg-5 d-lg-flex d-md-block"> <!--d-column-->
+          <div class="">
+            <h2 class="mb-0"><span class="text-primary">Industry Equipment Failures</span></h2>
+            <div style="margin: var(--space-md) 0;">
+              <a href="https://github.com/shiva-gandluri/industry-equipment-failures" class="btn-pill">
+                <i class="fab fa-github"></i>
+                Code Repository
+              </a>
+            </div>
+            <h6> Problem: </h6>
+            <p>
+
+              The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is
+              the Air Pressure
+              system (APS) which generates pressurised air that are utilized in various functions in a truck, such as
+              braking and gear changes.
+              The challenge is to develop a machine learning model that would detect whether a machinery is defective or
+              not with high precision
+              by reducing the cost metric.
+              The datasets’ positive (or defective) class consists of component failures for a specific component of the
+              APS system.
+              The negative (or non-defective) class consists of trucks with failures for components not related to the
+              APS.
+            </p>
+
+            <h6> Data: </h6>
+            <p>
+            <ul>
+              <li>The Industry Equipment Failures data is distributed across 2 categories with around 60,000 records
+                with 171 features and
+                high imbalance in the class labels ratio. </li>
+              <li>The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000
+                positive class.
+                The test set contains 16000 examples.</li>
+              <li>Each record in the dataset has information about the machinery with anonymous names making it harder
+                to draw analogies with
+                trends and insights from real-life.</li>
+              <li><b>Cost-metric of miss-classification:</b> </li>
+              <ul>
+                <li>
+                  Total_cost = $ (No_Instances_with_False_Negatives * False_Negative_Cost) +
+                  (No_Instances_with_False_Positives * False_Positive_Cost) ,
+                  <p>where False_Positive_Cost = 10 and False_Negative_Cost = 500.</p>
+                </li>
+              </ul>
+            </ul>
+            </p>
+
+
+            <h6> Approach: </h6>
+            <p>
+
+            <ul>
+              <li> Data Parsing </li>
+              <li> Features with more than 75% missing instances are removed. 6 features are removed in total. </li>
+              <li> Missing values in the rest of the columns are compensated/filled using Mean imputed and Median
+                imputed method</li>
+              <li> Compensate the unbalanced data set by adopting
+                <a style="color:#0d6efd"
+                  href="https://docs.microsoft.com/en-us/azure/machine-learning/studio-module-reference/smote">
+                  SMOTE (Synthetic Minority Oversampling Techniques)
+                </a>
+              </li>
+              <li> Standardizing/ Normalizing the data </li>
+              <li>ROC/ precision_recall curve is used to choose a threshold such that the recall is high and the total
+                cost is minimized.
+                Validation set is used for selecting threshold using cross validation.</li>
+              <li> Model training and testing. Following models were user to train. </li>
+              <ul>
+                <li> K-Nearest Neighbours </li>
+                <li> Logistic Regression </li>
+                <li> Random Forest </li>
+                <li> XGBoost </li>
+              </ul>
+            </ul>
+            </p>
+
+            <h6>Conclusions:</h6>
+            <p>
+            <ul>
+              <li> Medium imputed features with XGBoost model with depth 15 and 300 learners gave me the best results of
+                $13700 cost </li>
+            </ul>
+            </p>
+
+            <p><b>Technologies Used:</b> Machine Learning, Python </p>
+            <br>
+
+
+
+            <div class="tag-list">
+
+              <a href="../../projects/index.html?tag=Machine%20Learning" class="tag">Machine Learning</a>
+
+              <a href="../../projects/index.html?tag=Data%20visualization" class="tag">Data visualization</a>
+
+              <a href="../../projects/index.html?tag=Python" class="tag">Python</a>
+
+              <a href="../../projects/index.html?tag=Data%20Science" class="tag">Data Science</a>
+
+            </div>
+
+          </div>
+
+
+        </section>
+
+
+
+
+      </section>
+    </main>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script>
+    // Mobile Nav Toggle
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const sideNav = document.getElementById('sideNav');
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        sideNav.classList.toggle('active');
+      });
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (sideNav.classList.contains('active') &&
+        !sideNav.contains(e.target) &&
+        !navToggle.contains(e.target)) {
+        sideNav.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <script src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Amazon Fine Food Reviews</title>
+
+  <!-- Google Fonts: Outfit (Headers) and Lato (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Lato:wght@300;400;700&family=Fira+Code&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+
+  <!-- Custom Modern CSS -->
+  <link href="../../css/modern.css?v=2" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <div class="app-container">
+    <!-- Mobile Nav Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="sidebar" id="sideNav" aria-label="Main Navigation">
+      <a class="navbar-brand" href="../../index.html">
+        <span class="mobile-brand-text">Shiva Gandluri</span>
+        <span class="desktop-brand-img">
+          <img class="profile-img" src="../../img/display-picture.jpg" alt="Shiva Gandluri">
+        </span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="../../index.html#about">About</a>
+        <a class="nav-link" href="../../index.html#skills">Skills</a>
+        <a class="nav-link" href="../../index.html#education">Education</a>
+        <a class="nav-link" href="../../index.html#projects">Projects</a>
+        <a class="nav-link" href="../../index.html#experience">Experience</a>
+        <a class="nav-link" href="../../index.html#leadership">Leadership</a>
+        <a class="nav-link" href="../../index.html#blogs">Blogs</a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section id="project-details">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../index.html#projects">Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Amazon Fine Food Reviews</li>
+          </ol>
+        </nav>
+
+
+
+        <section class="resume-section p-3 p-lg-5 d-lg-flex d-md-block"> <!--d-column-->
+          <div class="">
+            <h2 class="mb-3"><span class="text-primary">Amazon Fine Food Reviews</span></h2>
+            <div style="margin: var(--space-md) 0;">
+              <a href="https://github.com/shiva-gandluri/amazon-fine-food-reviews" class="btn-pill">
+                <i class="fab fa-github"></i>
+                Code Repository
+              </a>
+            </div>
+            <p>
+            <h6> Problem: </h6>
+
+            <p>The challenge is to develop a machine learning model that would classify a given food review into
+              one of the two categories, positive review or negative review, with high precision and recall.
+              A 'rating' attribute was provided for each review with values 1 to 5, which I have used as class label for
+              performing
+              supervised training and predicting the class labels for test dataset.
+              It's is a classic sentiment analysis problem, means that for every food review, the polarity of it has to
+              be predicted.</p>
+
+            <h6> Data: </h6>
+            <p>The Amazon Fine Food Reviews data is distributed across 2 categories with around 0.56 million reviews and
+              10 attributes.
+              Each record in the dataset has information about the user, review text, timestamp of the review etc.</p>
+
+
+
+            <h6> Approach: </h6>
+            <ul>
+              <li>Performed Exploratory Data Analysis(EDA) on Amazon Fine Food Reviews Dataset and drew helpful insights
+                by plotting Word Clouds, Distplots, Histograms, etc.</li>
+              <li>Performed Data Cleaning & Data Preprocessing by removing unnecessary and duplicates rows and for text
+                reviews removed HTML tags, punctuations, Stopwords and Stemmed the words using Porter Stemmer</li>
+              <li>Based on the insights drawn from EDA, Feature engineered the data and augmented new features to the
+                dataset. </li>
+              <li>Plotted TSNE plots for Different Featurization of Data viz. BOW(uni-gram), TF-IDF, Avg-Word2Vec and
+                TF-IDF-Word2Vec</li>
+              <li>Build machine learning models</li>
+            </ul>
+
+            <h6> Models: </h6>
+            <p>Applied the following machine learning models on different featurization of data viz. BOW(uni-gram),
+              tfidf, Avg-Word2Vec and tf-idf-Word2Vec</p>
+            <ul>
+              <li>K-Nearest Neighbours</li>
+              <li>Naive Bayes</li>
+              <li>Logistic Regression</li>
+              <li>Decision Tree</li>
+              <li>Random Forest</li>
+              <li>XGBoost and</li>
+              <li>Recurrent Neural Networks(LSTM)</li>
+            </ul>
+
+            <h6> Conclusions: </h6>
+            <ul>
+              <li>Was able to achieve 94% accuracy with both Random Forest and XGBoost with optimal base learners = 10
+                and depth = 10 </li>
+              <li>While performing dimensionality reduction, Truncated SVD helped me to find the best values for least
+                number of dimensions
+                that retain maximum information.</li>
+            </ul>
+
+            <b>Technologies Used:</b> Machine Learning, Python
+            <br>
+
+
+            </p>
+
+            <div class="tag-list">
+
+              <a href="../../projects/index.html?tag=Machine%20Learning" class="tag">Machine Learning</a>
+
+              <a href="../../projects/index.html?tag=Data%20visualization" class="tag">Data visualization</a>
+
+              <a href="../../projects/index.html?tag=Python" class="tag">Python</a>
+
+              <a href="../../projects/index.html?tag=Data%20Science" class="tag">Data Science</a>
+
+            </div>
+
+          </div>
+
+
+        </section>
+    </main>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script>
+    // Mobile Nav Toggle
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const sideNav = document.getElementById('sideNav');
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        sideNav.classList.toggle('active');
+      });
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (sideNav.classList.contains('active') &&
+        !sideNav.contains(e.target) &&
+        !navToggle.contains(e.target)) {
+        sideNav.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <script src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+
+
+
+</body>
+
+</html>

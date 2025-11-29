@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Blog Hub</title>
+
+  <!-- Google Fonts: Outfit (Headers) and Lato (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Lato:wght@300;400;700&family=Fira+Code&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+
+  <!-- Custom Modern CSS -->
+  <link href="../../css/modern.css?v=2" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <div class="app-container">
+    <!-- Mobile Nav Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="sidebar" id="sideNav" aria-label="Main Navigation">
+      <a class="navbar-brand" href="../../index.html">
+        <span class="mobile-brand-text">Shiva Gandluri</span>
+        <span class="desktop-brand-img">
+          <img class="profile-img" src="../../img/display-picture.jpg" alt="Shiva Gandluri">
+        </span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="../../index.html#about">About</a>
+        <a class="nav-link" href="../../index.html#skills">Skills</a>
+        <a class="nav-link" href="../../index.html#education">Education</a>
+        <a class="nav-link" href="../../index.html#projects">Projects</a>
+        <a class="nav-link" href="../../index.html#experience">Experience</a>
+        <a class="nav-link" href="../../index.html#leadership">Leadership</a>
+        <a class="nav-link" href="../../index.html#blogs">Blogs</a>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section id="project-details">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+            <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../index.html#projects">Projects</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Blog Hub</li>
+          </ol>
+        </nav>
+
+
+
+
+        <section class="resume-section p-3 p-lg-5">
+          <h2 class="mb-0"><span class="text-primary">Blog Hub</span></h2>
+
+          <!-- Two-column layout: Content left, Video right -->
+          <div
+            style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-xl); margin-top: var(--space-lg);">
+
+            <!-- Left column: Content -->
+            <div>
+              <p>
+                Blog hub is a dynamic web application that lets users to read
+                and publish articles. The platform is an example of social journalism,
+                having a hybrid collection of amateur and professional people and publications,
+                or exclusive blogs or publishers and is regarded as a blog host.
+              </p>
+
+              <h3 style="font-size: 1.1rem; margin-top: var(--space-lg); margin-bottom: var(--space-sm);">Features
+                included:</h3>
+              <ul>
+                <li>Medium-like editor for styling fonts</li>
+                <li>User authentication and authorisation</li>
+                <li>CRUD operations on the articles</li>
+                <li>Draft section</li>
+                <li>Clap (or like) posts and add comments</li>
+                <li>Author can customise comments on his blogposts</li>
+                <li>Simplified yet eye-pleasing UI</li>
+              </ul>
+
+              <p style="margin-top: var(--space-md);">
+                <strong>Framework:</strong> Django
+              </p>
+
+              <p>
+                <strong>Third parties used:</strong>
+                <a href="https://github.com/yabwe/medium-editor">Medium-editor</a>
+              </p>
+            </div>
+
+            <!-- Right column: GitHub Button + YouTube Video -->
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <!-- GitHub Button -->
+              <a href="https://github.com/shiva-gandluri/blog_hub" class="btn-pill"
+                style="margin-bottom: var(--space-md);">
+                <i class="fab fa-github"></i>
+                Code Repository
+              </a>
+
+              <!-- YouTube Video -->
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/a11yFo0WNcY?rel=0"
+                title="Blog Hub Demo" style="border: 2px solid var(--color-border); border-radius: 8px;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Tags at the bottom -->
+          <div style="margin-top: var(--space-xl);">
+            <div class="tag-list">
+              <a href="../../projects/index.html?tag=Python" class="tag">Python</a>
+              <a href="../../projects/index.html?tag=Django" class="tag">Django</a>
+              <a href="../../projects/index.html?tag=SQLite3" class="tag">SQLite3</a>
+              <a href="../../projects/index.html?tag=Bootstrap" class="tag">Bootstrap</a>
+              <a href="../../projects/index.html?tag=CSS" class="tag">CSS</a>
+              <a href="../../projects/index.html?tag=Software%20Development" class="tag">Software Development</a>
+            </div>
+          </div>
+
+        </section>
+
+
+
+
+      </section>
+    </main>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script>
+    // Mobile Nav Toggle
+    const navToggle = document.querySelector('.mobile-nav-toggle');
+    const sideNav = document.getElementById('sideNav');
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', !isExpanded);
+        sideNav.classList.toggle('active');
+      });
+    }
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (sideNav.classList.contains('active') &&
+        !sideNav.contains(e.target) &&
+        !navToggle.contains(e.target)) {
+        sideNav.classList.remove('active');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <script src="/js/resume.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+
+
+
+</body>
+
+</html>
