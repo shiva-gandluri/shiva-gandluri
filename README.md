@@ -91,7 +91,7 @@ Jawaharlal Nehru Technological University - Hyderabad | *August 2015 - June 2019
 
 ## Contact
 
-📧 **Email:** vgandlur@buffalo.edu | shiva1gandluri@gmail.com  
+📧 **Email:**  shiva1gandluri@gmail.com  
 💼 **LinkedIn:** [linkedin.com/in/shiva-gandluri](https://www.linkedin.com/in/shiva-gandluri-63016416b/)  
 🐙 **GitHub:** [github.com/shiva-gandluri](https://github.com/shiva-gandluri)  
 🌐 **Portfolio:** [shiva-gandluri.github.io/shiva-gandluri](https://shiva-gandluri.github.io/shiva-gandluri/)
