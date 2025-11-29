@@ -1,50 +1,101 @@
-<h1 align="center"> Shiva Gandluri </h1>
+# Shiva Gandluri
 
---------------------------------------------------
+**Software Development Engineer @ Amazon Web Services (AWS)**  
+**Master's in Data Science | SUNY Buffalo**
 
-<h4 align="center" justify-content ="space-around"> 4🌟 Programmer @ CodeChef || Full Stack Developer (Angular + Django) || AI Enthusiast </h4>
+---
 
---------------------------------------------------
+## About Me
 
-### About
+I'm a Software Development Engineer at AWS, building resilient, high-scale cloud infrastructure and developer tools. With a Master's in Data Science from SUNY Buffalo and a Bachelor's in Computer Science and Engineering, I bridge the gap between robust software engineering and intelligent data systems.
 
-If you're in search of potential candidates with any of the below abilities, 𝘥𝘰 𝘤𝘰𝘯𝘴𝘪𝘥𝘦𝘳 𝘮𝘦 𝘢𝘴 𝘰𝘯𝘦.
+My expertise spans **full-stack development**, **cloud architecture**, and **machine learning**, with a passion for creating intuitive solutions that solve complex real-world problems.
 
-✅ 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗦𝗼𝗹𝘃𝗲𝗿:
-I have solved around 330+ Leetcode problems and 110+ problems on other platforms. These helped me both professionally and personally in developing a perspective on how to face and deal with problems. Shared some of them in my featured post - 'Completed Solving my first 100 problems on Leetcode'.
+---
 
-✅ 𝗙𝘂𝗹𝗹-𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 / 𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 / 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 :
-I have 2 years of industrial experience working as Software Developer at Tata Consultancy and Services. Also, I built 4 end-to-end web applications and gained experience in building Restful APIs, web scraping, dynamic interaction with the database in the backend, and building single-page dynamic web applications with routing, component interaction features in the frontend. I believe this exposure to the Software Development makes me an efficient Fullstack Developer.
+## Professional Experience
 
-✅ 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿 / 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘀𝘁 / 𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝘁𝗶𝘀𝘁 :
-I've worked on 6 machine learning projects based on Classification, Regression, Time Series Data, Recommendation systems, and Convolutional Neural Networks. I have done extensive data analysis and derived impactful business insights while working on these problems, which makes me an eligible candidate for the above roles.
+### **Software Development Engineer** | Amazon Web Services (AWS)
+*October 2022 - Present*
 
---------------------------------------------------
+- **Multi-Region Infrastructure**: Architected and deployed active-active multi-region infrastructure (IAD + PDX), eliminating 3-5 annual AWS service outages and enabling automatic customer failover.
+- **Developer Tools**: Designed failed lab provisioning access feature enabling 300+ developers to debug CloudFormation failures in real-time, achieving 100% adoption.
+- **Security & Compliance**: Migrated service infrastructure from legacy REST API Gateway to custom DNS endpoints via Route53, eliminating TLS 1.0/1.1 vulnerabilities and achieving PCI DSS compliance.
 
-### 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆 𝗦𝘁𝗮𝗰𝗸 :
+### **Research Assistant** | University at Buffalo, SUNY
+*October 2021 - April 2022*
 
-𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀/𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸𝘀: Angular, Django, Python, Java, NumPy, Pandas
+- Developed full-stack web application for EPDS survey and doctor-patient interaction portal.
+- Built ML-based chatbot for STD symptom detection.
 
-𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲/𝗪𝗲𝗯 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁: SQL, HTML/CSS
+### **Assistant Systems Engineer** | Tata Consultancy Services
+*July 2019 - April 2021*
 
-𝗧𝗼𝗼𝗹𝘀: Git, Postman, Jupyter Notebooks
+- Full-stack development for New York Life Co., building RESTful web services and Angular visualizations.
+- Reduced underwriter workload by 35% through data-driven automation.
+- Led SSIS job migration from SQL Server 2008 to 2012, improving performance by 10%.
 
---------------------------------------------------
-### 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 :
+---
 
-<img src="https://img.icons8.com/fluent/25/000000/linkedin.png" style="width: 0.1rem; height: 0.1rem"/> : https://www.linkedin.com/in/shiva-gandluri/
+## Featured Projects
 
-✉ : shiva1gandluri@gmail.com
+### **SplitSmart - iOS Bill-Splitting App**
+Built an iOS bill-splitting app with automatic receipt scanning using Vision Framework and Gemini AI, achieving **95% extraction accuracy** across hundreds of real-world receipts.
 
---------------------------------------------------
+**Tech Stack:** SwiftUI, Firebase, Vision Framework, Gemini AI  
+[Demo](https://youtube.com/shorts/Db76yLoaf7s) | [GitHub](https://github.com/shiva-gandluri/SplitSmartApp)
 
-<!---
-- [About](#About)
-- 👋 Hi, I’m @shiva-gandluri
-- 👀 I’m interested in Full Stack Web Development (Angular + Django) and I'm an AI enthusiast
-- 🌱 I’m currently working on some AI projects and deploying them online.
-- 💞️ I’m looking to collaborate on Computer Vision projects.
-- 📫 How to reach me ...
-shiva-gandluri/shiva-gandluri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### **Blog Hub**
+Dynamic web application with medium-like editor, featuring font styling, clap/comment options, and user authentication.
+
+**Tech Stack:** Django, Python, SQLite3, Bootstrap  
+[Demo](https://youtu.be/a11yFo0WNcY) | [GitHub](https://github.com/shiva-gandluri/blog_hub)
+
+### **Financial Dashboard**
+Single-page Angular app displaying real-time stock data for 7700+ companies and forex rates for 190+ countries.
+
+**Tech Stack:** Angular, TypeScript, Chart.js, Ng-Bootstrap  
+[Demo](https://youtu.be/z_gGbkKiw0U) | [GitHub](https://github.com/shiva-gandluri/Financial-Dashboard)
+
+### **Machine Learning Projects**
+- **Quora Question Pair Similarity**: Siamese LSTM model for semantic similarity detection
+- **Passenger Satisfaction Prediction**: Binary classifier using CRISP-DM methodology (96% accuracy)
+- **Apparel Recommendation System**: CNN-based product recommendation engine
+- **Amazon Fine Food Reviews**: Sentiment analysis with feature engineering
+
+---
+
+## Technology Stack
+
+**Languages:** Python, Java, JavaScript, TypeScript, Swift, SQL
+
+**Frameworks & Libraries:**
+- **Web/Mobile:** Angular, Django, SwiftUI, HTML5, CSS3, Bootstrap
+- **ML/Data Science:** Keras, Scikit-learn, NumPy, Pandas, SciPy, NLTK, Vision Framework
+
+**Cloud & Databases:** AWS, Google Cloud Platform, MySQL, SQLite, Firebase
+
+**Tools & Platforms:** Git, Linux, Docker, Postman, Jupyter Notebooks
+
+---
+
+## Education
+
+**Master of Science in Engineering Sciences (Data Science)**  
+State University of New York (SUNY) at Buffalo | *August 2021 - May 2023*
+
+**Bachelor of Technology in Computer Science and Engineering**  
+Jawaharlal Nehru Technological University - Hyderabad | *August 2015 - June 2019*
+
+---
+
+## Contact
+
+📧 **Email:** vgandlur@buffalo.edu | shiva1gandluri@gmail.com  
+💼 **LinkedIn:** [linkedin.com/in/shiva-gandluri](https://www.linkedin.com/in/shiva-gandluri-63016416b/)  
+🐙 **GitHub:** [github.com/shiva-gandluri](https://github.com/shiva-gandluri)  
+🌐 **Portfolio:** [shiva-gandluri.github.io/shiva-gandluri](https://shiva-gandluri.github.io/shiva-gandluri/)
+
+---
+
+*Building scalable systems, one commit at a time.* 🚀
